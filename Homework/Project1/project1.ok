@@ -1,0 +1,15 @@
+{
+  "name": "Project 1",
+  "endpoint": "cal/phy151/fa17/project1",
+  "src": [
+    "Project1.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
